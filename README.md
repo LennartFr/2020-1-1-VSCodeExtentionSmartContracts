@@ -21,7 +21,7 @@
 
 
 
-# Learning Objectives:
+# I) Learning Objectives:
 
 What we will be doing:
 
@@ -41,17 +41,14 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 
 <img src="img/vsc.png">
 
-### [Install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
+## 3. [Install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
 
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
-
-Go through Tutorial One in VS Code: Local Smart Contract Development.
-
-Follow the typical workflow from generating a new smart contract project, deploying code to the <i>local_fabric_runtime</i> and testing your transactions via an application gateway</i> 
+ 
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
-## 3. What are Smart Contracts and how are they used? 
+# II) Developing Smart Contracts 
  
 <img src="img/scontr1.png">
  
@@ -68,7 +65,7 @@ Follow the typical workflow from generating a new smart contract project, deploy
  <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts</a>  
  
 
-## 4. How do we deploy our Smart Contract in the <a href="https://ibm.biz/Bdzmec">IBM Cloud </a> 
+# IV). How do we deploy our Smart Contracts?  
 
 <img src="img/VSC_BC.png">
 
