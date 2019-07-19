@@ -15,9 +15,11 @@
 
 # Learning Objectives:
 
-## 1. How do we get started?
+## 1. Sign upt to a free IBM Cloud accound
  
-## 2. Visual Studio Code with the IBM plugin, creating our MVP
+## 2. Install Visual Studio Code with the IBM plugin
+
+img src="img/vsc.png">                                     
 
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
@@ -33,6 +35,9 @@ Follow the typical workflow from generating a new smart contract project, deploy
 # Learning Objective 1: How do we get started?
 
 # Learning Objective 2: Visual Studio Code with the IBM plugin, creating our MVP
+
+
+
 
 <img src="img/VSC_BC.png">
 
