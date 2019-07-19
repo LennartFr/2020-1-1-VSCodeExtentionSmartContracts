@@ -15,11 +15,11 @@
 
 # Learning Objectives:
 
-## 1. Sign upt to a free IBM Cloud accound
+## 1. Sign up to a free IBM Cloud accound
  
 [https://ibm.biz/BdzPVW](https://ibm.biz/BdzPVW)
 
-<img src="login.png">
+<img src="img/login.png">
  
  
 ## 2. Install Visual Studio Code 
