@@ -21,6 +21,8 @@
 
 <img src="img/vsc.png">                                     
 
+<img src="img/ibp.png">
+
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
 Go through Tutorial One in VS Code: Local Smart Contract Development.
