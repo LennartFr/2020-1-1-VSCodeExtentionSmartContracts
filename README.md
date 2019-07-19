@@ -17,7 +17,7 @@
 
 What we will be doing:
 
-## 1. Sign up to a free IBM Cloud accound
+## 1. Sign up to a free IBM Cloud account
  
 [https://ibm.biz/BdzPVW](https://ibm.biz/BdzPVW)
 
