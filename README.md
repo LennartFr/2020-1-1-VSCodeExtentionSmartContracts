@@ -19,7 +19,7 @@
  
 ## 2. Install Visual Studio Code with the IBM plugin
 
-img src="img/vsc.png">                                     
+<img src="img/vsc.png">                                     
 
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
