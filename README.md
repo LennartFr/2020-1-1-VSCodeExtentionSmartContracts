@@ -2,7 +2,7 @@
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Event URL: [https://bit.ly/2LR2WP0](https://bit.ly/2LR2WP0)
+# Event URL: [https://bit.ly/2GlYPqF](https://bit.ly/2GlYPqF)
 
 # An introduction to the IBM Blockchain Platform 2.0!
 
