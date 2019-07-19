@@ -26,14 +26,15 @@
 
 <img src="img/vsc.png">                                     
 
-## 2. Install the IBM Plugin into VSCode 
-
+## 3. Install the IBM Plugin into VSCode 
 
 <img src="img/ibp.png">
 
-[Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
+### 4. Navigate to tutorials in VSCode
 
-### 1) Find IBM Blockchain Platform service in the IBM Cloud: [https://cloud.ibm.com/catalog?search=blockchain](https://cloud.ibm.com/catalog?search=blockchain). 
+<img src="img/tutorials.png">
+
+[Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
 Go through Tutorial One in VS Code: Local Smart Contract Development.
 
@@ -44,9 +45,7 @@ Follow the typical workflow from generating a new smart contract project, deploy
 
 ## 3. How do we deploy our MVP in the <a href="https://ibm.biz/Bdzmec">IBM Cloud </a> 
 
-# Learning Objective 1: How do we get started?
 
-# Learning Objective 2: Visual Studio Code with the IBM plugin, creating our MVP
 
 
 
