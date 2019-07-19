@@ -22,9 +22,12 @@
 <img src="login.png">
  
  
-## 2. Install Visual Studio Code with the IBM plugin
+## 2. Install Visual Studio Code 
 
 <img src="img/vsc.png">                                     
+
+## 2. Install the IBM Plugin into VSCode 
+
 
 <img src="img/ibp.png">
 
