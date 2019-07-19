@@ -17,7 +17,7 @@
 
 <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/">Hyperledger Fabric Read the Docs</a>
 
-<ahref="https://github.com/hyperledger/fabric">Hyperledger Fabric source code on GitHub</a>
+<a href="https://github.com/hyperledger/fabric">Hyperledger Fabric source code on GitHub</a>
 
 
 
