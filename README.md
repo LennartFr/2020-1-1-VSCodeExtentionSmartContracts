@@ -19,6 +19,15 @@
  
 ## 2. Visual Studio Code with the IBM plugin, creating our MVP
 
+[Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
+
+Go through Tutorial One in VS Code: Local Smart Contract Development.
+
+Follow the typical workflow from generating a new smart contract project, deploying code to the <i>local_fabric_runtime</i> and testing your transactions via an application gateway</i> 
+ 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+ 
+
 ## 3. How do we deploy our MVP in the <a href="https://ibm.biz/Bdzmec">IBM Cloud </a> 
 
 # Learning Objective 1: How do we get started?
