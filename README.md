@@ -10,7 +10,7 @@
 
 ## Linkedin.com/in/lennartfrantzell/
 ## Linkedin.com/in/drnugent/
- 
+ ''
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Learning Objectives:
@@ -19,11 +19,17 @@ What we will be doing:
 
 ## 1. Sign up to a free IBM Cloud account
  
+ Why will we sign up to a free IBM Cloud account?
+ Because IBM Blockchain Platform runs in the IBM cloud.
+ 
 [https://ibm.biz/BdzPVW](https://ibm.biz/BdzPVW)
 
 <img src="img/login.png">
  
 ## 2. Install Visual Studio Code (VSCode) 
+
+Why will we install VSCode?
+Because it comes with a Plugin-in for the IBM Blockchain Platform which makes it easy to create Smart Contracts.
 
 <img src="img/vsc.png">
 
