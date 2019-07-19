@@ -26,14 +26,12 @@ What we will be doing:
 
 <img src="img/login.png">
  
-## 2. Install Visual Studio Code (VSCode) 
+## 2. [Install Visual Studio Code](https://code.visualstudio.com)
 
-Why will we install VSCode?
-Because it comes with a Plugin-in for the IBM Blockchain Platform which makes it easy to create Smart Contracts.
+Why will we install Visual Studio Code?
+Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes it easy to create Smart Contracts.
 
 <img src="img/vsc.png">
-
-### [Install Visual Studio Code](https://code.visualstudio.com)
 
 ### [Install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
 
@@ -47,7 +45,15 @@ Follow the typical workflow from generating a new smart contract project, deploy
  
 ## 3. What are Smart Contracts and how are they used? 
  
+<img src="scontr1.png">
  
+<img src="scontr2.png">
+
+<img src="scontr3.png">
+ 
+[Smart Contracts](https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html)  
+ 
+
 ## 4. How do we deploy our Smart Contract in the <a href="https://ibm.biz/Bdzmec">IBM Cloud </a> 
 
 <img src="img/VSC_BC.png">
