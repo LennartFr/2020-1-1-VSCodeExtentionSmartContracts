@@ -25,7 +25,7 @@
 
 # Learning Objective 2: Visual Studio Code with the IBM plugin, creating our MVP
 
-<img src="V ">
+<img src="VSC_BC.png">
 
 ### [Installing Visual Studio Code](https://code.visualstudio.com)
 
