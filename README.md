@@ -10,7 +10,7 @@
 
 ## Linkedin.com/in/lennartfrantzell/
 ## Linkedin.com/in/drnugent/
- ''
+ 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Learning Objectives:
@@ -45,11 +45,11 @@ Follow the typical workflow from generating a new smart contract project, deploy
  
 ## 3. What are Smart Contracts and how are they used? 
  
-<img src="scontr1.png">
+<img src="img/scontr1.png">
  
-<img src="scontr2.png">
+<img src="img/scontr2.png">
 
-<img src="scontr3.png">
+<img src="ing/scontr3.png">
  
 [Smart Contracts](https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html)  
  
