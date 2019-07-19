@@ -47,11 +47,17 @@ Follow the typical workflow from generating a new smart contract project, deploy
  
 <img src="img/scontr1.png">
  
+ ---------------------------
+ 
 <img src="img/scontr2.png">
 
-<img src="ing/scontr3.png">
- 
-[Smart Contracts](https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html)  
+----------------------------
+
+<img src="img/scontr3.png">
+
+----------------------------
+
+ <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts</a>  
  
 
 ## 4. How do we deploy our Smart Contract in the <a href="https://ibm.biz/Bdzmec">IBM Cloud </a> 
