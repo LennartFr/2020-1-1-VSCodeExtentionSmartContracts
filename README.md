@@ -43,6 +43,8 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 
 ## 3. [Install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
 
+<img src="img/marketplace.png">
+
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
  
  
