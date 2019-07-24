@@ -46,6 +46,9 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
  
  
+ Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
+ 
+ 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
 # II) Developing Smart Contracts 
