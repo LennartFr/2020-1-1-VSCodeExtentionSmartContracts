@@ -9,7 +9,6 @@
 # Contacts:
 
 ## Linkedin.com/in/lennartfrantzell/
-## Linkedin.com/in/drnugent/
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
@@ -48,12 +47,12 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
  
  
-# Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
+## Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
  
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
-# II) Developing Smart Contracts 
+# II) Smart Contract. overview 
  
 <img src="img/scontr1.png">
  
@@ -69,6 +68,14 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 
  <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts</a>  
  
+ # III) Developing Smart Contracts in VSCode
+ 
+ <img src="tutstart.png">
+ <p>
+ <img src="alltuts.png">
+ <p>
+ <img src="tutlocal.png">
+ <p>
 
 # IV). How do we deploy our Smart Contracts?  
 
