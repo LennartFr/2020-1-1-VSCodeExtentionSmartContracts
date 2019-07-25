@@ -70,11 +70,11 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
  
  # III) Developing Smart Contracts in VSCode
  
- <img src="tutstart.png">
+ <img src="img/tutstart.png">
  <p>
- <img src="alltuts.png">
+ <img src="img/alltuts.png">
  <p>
- <img src="tutlocal.png">
+ <img src="img/tutlocal.png">
  <p>
 
 # IV). How do we deploy our Smart Contracts?  
