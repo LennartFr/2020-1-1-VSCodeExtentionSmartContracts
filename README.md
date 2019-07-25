@@ -32,20 +32,25 @@ What we will be doing:
 
 <img src="img/login.png">
  
-## 2. [Install Visual Studio Code](https://code.visualstudio.com)
+## 2. Install Visual Studio Code
 
 Why will we install Visual Studio Code?
 Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes it easy to create Smart Contracts.
 
+[Click on link to install Visual Studio Code](https://code.visualstudio.com)
+
 <img src="img/vsc.png">
 
-## 3. [Install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
+## 3. Install IBM Blockchain Platform Plugin in Visual Studio Code
 
 <img src="img/marketplace.png">
 
+[Click on link to install IBM Blockchain Platform Plugin in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) 
+
+
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
  
-## Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
+### Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
