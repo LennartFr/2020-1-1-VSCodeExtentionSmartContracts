@@ -45,9 +45,7 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
  
- 
 ## Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
- 
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
@@ -70,23 +68,14 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
  # III) Developing Smart Contracts in VSCode
  
  <img src="img/tutstart.png">
-<p>Click on Follow Tutorials
+<p>Click on Follow Tutorials above
 <p>
  <img src="img/alltuts.png">
- <p><p>Click on Tutorial 1
+ <p><p>Click on Tutorial 1 above
 <p>
  <img src="img/tutlocal.png">
  <p>
   Follow the content in the tutorial
 
-# IV). How do we deploy our Smart Contracts?  
-
-<img src="img/VSC_BC.png">
-
-
-Go through Tutorial One in VS Code: Local Smart Contract Development.
-
-Follow the typical workflow from generating a new smart contract project, deploying code to the <i>local_fabric_runtime</i> and testing your transactions via an application gateway</i> 
- 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
