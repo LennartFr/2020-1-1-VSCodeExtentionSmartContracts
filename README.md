@@ -19,7 +19,6 @@
 <a href="https://github.com/hyperledger/fabric">Hyperledger Fabric source code on GitHub</a>
 
 
-
 # I) Learning Objectives:
 
 What we will be doing:
@@ -71,11 +70,14 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
  # III) Developing Smart Contracts in VSCode
  
  <img src="img/tutstart.png">
- <p>
+<p>Click on Follow Tutorials
+<p>
  <img src="img/alltuts.png">
- <p>
+ <p><p>Click on Tutorial 1
+<p>
  <img src="img/tutlocal.png">
  <p>
+  Follow the content in the tutorial
 
 # IV). How do we deploy our Smart Contracts?  
 
