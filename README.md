@@ -39,12 +39,10 @@ What we will be doing:
 <p>
 <img src="img/vsc.png">
 
-(http://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
-
 Why will we install Visual Studio Code?
 Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes it easy to create Smart Contracts.
 
-[Complete instructions: Install IBM Blockchain Platform VS Code extension for free]
+[Complete instructions: Install IBM Blockchain Platform VS Code extension for free](http://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
 
 
