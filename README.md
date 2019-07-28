@@ -70,7 +70,7 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
 
 ----------------------------
 
- <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts</a>  
+ <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts, see charts above</a>  
  
  # III) Developing Smart Contracts in VSCode
  
