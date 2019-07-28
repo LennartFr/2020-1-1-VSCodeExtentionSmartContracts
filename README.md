@@ -36,6 +36,7 @@ What we will be doing:
 
 
 [Click on link to install Visual Studio Code](https://code.visualstudio.com)
+<p>
 <img src="img/vsc.png">
 
 (http://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
