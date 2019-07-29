@@ -70,7 +70,7 @@ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes i
   Follow the content in the tutorial
   
   
-  # II) Smart Contract overview 
+# III) Smart Contract overview 
  
 <img src="img/scontr1.png">
  
