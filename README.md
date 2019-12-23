@@ -19,7 +19,7 @@
 <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/">Hyperledger Fabric Read the Docs</a>
 
 <a href="https://github.com/hyperledger/fabric">Hyperledger Fabric source code on GitHub</a>
-
+ 
 
 # I) Learning Objectives:
 
@@ -42,7 +42,7 @@ What we will be doing:
 <img src="img/vsc.png">
 
 Why will we install Visual Studio Code?
-Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes it easy to create Smart Contracts.
+ Because it comes with a Plugin-in for the IBM Blockchain Platform, which makes it easy to create Smart Contracts.
 
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](http://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
