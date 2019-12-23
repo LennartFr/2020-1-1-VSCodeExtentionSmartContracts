@@ -78,6 +78,7 @@ Notice the lines that start with @Transaction - these are functions that define 
 
 Skipping over the first one (myAssetExists), take a look at the createMyAsset function:
  
+ ### Typescript
  
  ```
     @Transaction()
@@ -92,6 +93,26 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
         await ctx.stub.putState(myAssetId, buffer);
     }
  ```
+ ### Java
+ 
+ ```
+ @Transaction()
+    public void createMyAsset(String myAssetId, String value) {
+        Context ctx = getContext();
+        boolean exists = myAssetExists(myAssetId);
+        if (exists) {
+            throw new RuntimeException("The asset "+myAssetId+" already exists");
+        }
+        MyAsset asset = new MyAsset();
+        asset.setValue(value);
+        ctx.putState(myAssetId, asset.toJSONString().getBytes(UTF_8));
+    }
+ 
+ ```
+ 
+ 
+ 
+ 
  
 <p>Click on Follow Tutorials above
 <p>
