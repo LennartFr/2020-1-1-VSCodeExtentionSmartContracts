@@ -78,7 +78,7 @@ Notice the lines that start with @Transaction - these are functions that define 
 
 Skipping over the first one (myAssetExists), take a look at the createMyAsset function:
  
- ### Typescript
+ ### Typescript 1
  
  ```
     @Transaction()
@@ -93,7 +93,7 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
         await ctx.stub.putState(myAssetId, buffer);
     }
  ```
- ### Java
+ ### Java 1
  
  ```
  @Transaction()
@@ -114,7 +114,7 @@ The empty brackets in @Transaction() tells us that this function is intended to 
 
 Now, take a look at the next transaction:
 
-### Typescript
+### Typescript 2
 
 
  ```
@@ -135,7 +135,7 @@ Now, take a look at the next transaction:
  ```
  
  
-### Java
+### Java 2
 
 
  ```
