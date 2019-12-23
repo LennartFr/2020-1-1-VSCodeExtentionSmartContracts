@@ -60,7 +60,7 @@ Why will we install Visual Studio Code?
 
 ## 4. Launch IBM Blockchain Platform in the IBM Cloud
 
-<img src="ibm.blockchain.platform.png">
+<img src="/img/ibm.blockchain.platform.png">
 
 
  
