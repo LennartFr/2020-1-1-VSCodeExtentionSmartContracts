@@ -113,6 +113,7 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
 
 Now, take a look at the next transaction:
 
+### Typescript
 
  '''
   @Transaction(false)
@@ -129,9 +130,22 @@ Now, take a look at the next transaction:
  
  ,,,
  
-Java
+ 
+### Java
 
 '''
+
+@Transaction()
+    public MyAsset readMyAsset(String myAssetId) {
+        Context ctx = getContext();
+        boolean exists = myAssetExists(myAssetId);
+        if (!exists) {
+            throw new RuntimeException("The asset "+myAssetId+" does not exist");
+        }
+
+        MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
+        return newAsset;
+    
  
 ,,, 
  
@@ -149,6 +163,10 @@ Java
         return newAsset;
     }
   '''  
+  
+  This one starts with @Transaction(false) - the "false" means that this function is not typically intended to change the contents of the ledger. Transactions like this are typically evaluated. You'll often hear such transactions referred to as "queries". As you can see, this function only takes myAssetId, and will return the value of the whatever state that key points to.
+
+Take a look at the other transactions in the contract at your leisure, then when you're happy, let's move on to packaging and deploying that contract so that we can start using it...
     
  <img src="img/alltuts.png">
  <p><p>Click on Tutorial 1 above
