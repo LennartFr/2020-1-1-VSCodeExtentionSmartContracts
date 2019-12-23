@@ -70,7 +70,7 @@ Why will we install Visual Studio Code?
  ## 2 Understading the Smart Contract
  
  
- The generated smart contract code scaffold provides a good example of some common operations for interacting with data on a blockchain ledger. If you're in a big rush, you could skip this section, but why not stay a while and listen as we learn the basic anatomy of a smart contract!
+The generated smart contract code scaffold provides a good example of some common operations for interacting with data on a blockchain ledger. If you're in a big rush, you could skip this section, but why not stay a while and listen as we learn the basic anatomy of a smart contract!
 
 
 Notice the lines that start with @Transaction - these are functions that define your contract's transactions i.e. the things it allows you to do to interact with the ledger.
@@ -109,13 +109,15 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
     }
  
  ```
- The empty brackets in @Transaction() tells us that this function is intended to change the contents of the ledger. Transactions like this are typically submitted (as opposed to evaluated) - more on that later in this tutorial! The function is called createMyAsset and it takes myAssetId and a value, both of which are strings. When this transaction is submitted, a new asset will be created, with key myAssetId and value value. For example if we were to create "001", "A juicy delicious pineapple", then when we later read the value of key 001, we'll learn the value of that particular state is A juicy delicious pineapple.
+
+The empty brackets in @Transaction() tells us that this function is intended to change the contents of the ledger. Transactions like this are typically submitted (as opposed to evaluated) - more on that later in this tutorial! The function is called createMyAsset and it takes myAssetId and a value, both of which are strings. When this transaction is submitted, a new asset will be created, with key myAssetId and value value. For example if we were to create "001", "A juicy delicious pineapple", then when we later read the value of key 001, we'll learn the value of that particular state is A juicy delicious pineapple.
 
 Now, take a look at the next transaction:
 
 ### Typescript
 
  '''
+ 
   @Transaction(false)
     @Returns('MyAsset')
     public async readMyAsset(ctx: Context, myAssetId: string): Promise<MyAsset> {
@@ -128,7 +130,7 @@ Now, take a look at the next transaction:
         return myAsset;
     }
  
- ,,,
+ '''
  
  
 ### Java
@@ -145,9 +147,11 @@ Now, take a look at the next transaction:
 
         MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
         return newAsset;
-,,, 
+
+'''
  
-<p>
+ '''
+ 
  @Transaction()
     public MyAsset readMyAsset(String myAssetId) {
         Context ctx = getContext();
@@ -159,7 +163,8 @@ Now, take a look at the next transaction:
         MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
         return newAsset;
     }
-  '''  
+ 
+ '''  
   
 This one starts with @Transaction(false) - the "false" means that this function is not typically intended to change the contents of the ledger. Transactions like this are typically evaluated. You'll often hear such transactions referred to as "queries". As you can see, this function only takes myAssetId, and will return the value of the whatever state that key points to.
 
