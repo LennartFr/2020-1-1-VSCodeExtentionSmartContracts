@@ -109,13 +109,47 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
     }
  
  ```
+ The empty brackets in @Transaction() tells us that this function is intended to change the contents of the ledger. Transactions like this are typically submitted (as opposed to evaluated) - more on that later in this tutorial! The function is called createMyAsset and it takes myAssetId and a value, both of which are strings. When this transaction is submitted, a new asset will be created, with key myAssetId and value value. For example if we were to create "001", "A juicy delicious pineapple", then when we later read the value of key 001, we'll learn the value of that particular state is A juicy delicious pineapple.
+
+Now, take a look at the next transaction:
+
+
+ '''
+  @Transaction(false)
+    @Returns('MyAsset')
+    public async readMyAsset(ctx: Context, myAssetId: string): Promise<MyAsset> {
+        const exists = await this.myAssetExists(ctx, myAssetId);
+        if (!exists) {
+            throw new Error(`The my asset ${myAssetId} does not exist`);
+        }
+        const buffer = await ctx.stub.getState(myAssetId);
+        const myAsset = JSON.parse(buffer.toString()) as MyAsset;
+        return myAsset;
+    }
  
+ ,,,
  
+Java
+
+'''
  
- 
+,,, 
  
 <p>Click on Follow Tutorials above
 <p>
+ @Transaction()
+    public MyAsset readMyAsset(String myAssetId) {
+        Context ctx = getContext();
+        boolean exists = myAssetExists(myAssetId);
+        if (!exists) {
+            throw new RuntimeException("The asset "+myAssetId+" does not exist");
+        }
+
+        MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
+        return newAsset;
+    }
+  '''  
+    
  <img src="img/alltuts.png">
  <p><p>Click on Tutorial 1 above
 <p>
