@@ -116,7 +116,8 @@ Now, take a look at the next transaction:
 
 ### Typescript
 
- '''
+
+ ```
  
   @Transaction(false)
     @Returns('MyAsset')
@@ -130,12 +131,14 @@ Now, take a look at the next transaction:
         return myAsset;
     }
  
- '''
+
+ ```
  
  
 ### Java
 
-'''
+
+ ```
 
 @Transaction()
     public MyAsset readMyAsset(String myAssetId) {
@@ -148,9 +151,9 @@ Now, take a look at the next transaction:
         MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
         return newAsset;
 
-'''
+
+ ```
  
- '''
  
  @Transaction()
     public MyAsset readMyAsset(String myAssetId) {
@@ -164,7 +167,8 @@ Now, take a look at the next transaction:
         return newAsset;
     }
  
- '''  
+
+ ```  
   
 This one starts with @Transaction(false) - the "false" means that this function is not typically intended to change the contents of the ledger. Transactions like this are typically evaluated. You'll often hear such transactions referred to as "queries". As you can see, this function only takes myAssetId, and will return the value of the whatever state that key points to.
 
