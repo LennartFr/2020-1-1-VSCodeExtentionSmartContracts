@@ -145,11 +145,8 @@ Now, take a look at the next transaction:
 
         MyAsset newAsset = MyAsset.fromJSONString(new String(ctx.getState(myAssetId),UTF_8));
         return newAsset;
-    
- 
 ,,, 
  
-<p>Click on Follow Tutorials above
 <p>
  @Transaction()
     public MyAsset readMyAsset(String myAssetId) {
