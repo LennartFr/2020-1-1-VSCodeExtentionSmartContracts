@@ -47,7 +47,6 @@ Why will we install Visual Studio Code?
 [Complete instructions: Install IBM Blockchain Platform VS Code extension for free](http://cloud.ibm.com/docs/services/blockchain?topic=blockchain-develop-vscode#develop-vscode-install)
 
 
-
 ## 3. Install IBM Blockchain Platform Plugin in Visual Studio Code
 
 <img src="img/marketplace.png">
@@ -57,7 +56,13 @@ Why will we install Visual Studio Code?
 ### Please Note: Install issues documented at: https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
- 
+
+
+## 4. Launch IBM Blockchain Platform in the IBM Cloud
+
+<img src="ibmblockchainplatform.png">
+
+
  
  # II) Developing Smart Contracts in VSCode
  
