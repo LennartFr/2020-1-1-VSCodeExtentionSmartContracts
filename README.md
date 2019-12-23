@@ -79,8 +79,8 @@ Notice the lines that start with @Transaction - these are functions that define 
 Skipping over the first one (myAssetExists), take a look at the createMyAsset function:
  
  
- <table>
-     @Transaction()
+ ```
+    @Transaction()
     public async createMyAsset(ctx: Context, myAssetId: string, value: string): Promise<void> {
         const exists = await this.myAssetExists(ctx, myAssetId);
         if (exists) {
@@ -91,7 +91,7 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
         const buffer = Buffer.from(JSON.stringify(myAsset));
         await ctx.stub.putState(myAssetId, buffer);
     }
- </table>
+ ```
  
 <p>Click on Follow Tutorials above
 <p>
