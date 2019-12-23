@@ -97,7 +97,8 @@ Why will we install Visual Studio Code?
 
 
 <table>
-Testof copying text
+ <th><tr>Test of copying text rad 1</tr>
+<th><tr>test of copying text rad 2  </tr>
 
 </table>
 
