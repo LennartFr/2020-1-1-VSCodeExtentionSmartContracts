@@ -65,6 +65,34 @@ Why will we install Visual Studio Code?
  # II) Developing Smart Contracts in VSCode
  
  <img src="img/tutstart.png">
+ 
+ 
+ ## 2 Understading the Smart Contract
+ 
+ 
+ The generated smart contract code scaffold provides a good example of some common operations for interacting with data on a blockchain ledger. If you're in a big rush, you could skip this section, but why not stay a while and listen as we learn the basic anatomy of a smart contract!
+
+
+Notice the lines that start with @Transaction - these are functions that define your contract's transactions i.e. the things it allows you to do to interact with the ledger.
+
+
+Skipping over the first one (myAssetExists), take a look at the createMyAsset function:
+ 
+ 
+ <table>
+     @Transaction()
+    public async createMyAsset(ctx: Context, myAssetId: string, value: string): Promise<void> {
+        const exists = await this.myAssetExists(ctx, myAssetId);
+        if (exists) {
+            throw new Error(`The my asset ${myAssetId} already exists`);
+        }
+        const myAsset = new MyAsset();
+        myAsset.value = value;
+        const buffer = Buffer.from(JSON.stringify(myAsset));
+        await ctx.stub.putState(myAssetId, buffer);
+    }
+ </table>
+ 
 <p>Click on Follow Tutorials above
 <p>
  <img src="img/alltuts.png">
