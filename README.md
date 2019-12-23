@@ -78,7 +78,7 @@ Notice the lines that start with @Transaction - these are functions that define 
 
 Skipping over the first one (myAssetExists), take a look at the createMyAsset function:
  
- ### Typescript 1
+ ### Typescript 
  
  ```
     @Transaction()
@@ -93,7 +93,7 @@ Skipping over the first one (myAssetExists), take a look at the createMyAsset fu
         await ctx.stub.putState(myAssetId, buffer);
     }
  ```
- ### Java 1
+ ### Java 
  
  ```
  @Transaction()
@@ -159,6 +159,52 @@ This one starts with @Transaction(false) - the "false" means that this function 
 
 Take a look at the other transactions in the contract at your leisure, then when you're happy, let's move on to packaging and deploying that contract so that we can start using it...
     
+    
+
+ ## 3 Package the Smart Contract    
+    
+    
+## 4 Fabric Environments 
+
+## 5 Install the smart contract
+
+## 6 Instantiate the smart contract
+
+Installed smart contracts aren't ready to be invoked by client applications yet: we need a shared instance of the contract that all organizations in the network can use. In our simplified local dev network with just one organization, this is a bit of a moot point! As you'll see in later tutorials though, when multiple organizations are involved, they must individually install the same contract on their respective peers before the group can instantiate on their shared channel. So, it's useful to be thinking about this deployment as a two-stage process even at this early stage: it'll save you some surprises later!
+
+
+For now though, we've got our contract installed on all (one) of the peers that participate in mychannel so we can go ahead and instantiate.
+
+```
+1. In the Fabric Environments panel, look for + Instantiate (it's under Smart Contracts > Instantiated) and click it.
+
+2. You'll be asked to choose a smart contract to instantiate. Pick demoContract@0.0.1.
+
+3. You'll be asked what function to call. If you wanted to use a specific function as part of your instantiate, you could enter something here. We'll see that happen in future tutorials, but for now just hit Enter to skip this step.
+
+4. You'll be asked if you want to provide a private data configuration file. For this tutorial just click No, in future tutorials we will explain more about this.
+```
+
+Instantiation will take a while longer than install - watch out for the success message and demoContract@0.0.1 appearing in the Smart Contracts > Instantiated list to confirm it's worked!
+
+Command Palette alternative: Instantiate Smart Contract
+
+
+
+
+
+## 7 Submit and evaluate transactions
+
+Completed all the steps? Congratulations, you now know the key steps in the workflow of local smart contract development. You've generated a skeleton contract, deployed it locally, and submitted/evaluated transactions using it.
+
+
+If you wish to spend some more time locally developing your own smart contracts, our Samples (accessed from the extension's homepage) can help you explore development concepts. If you're iterating a lot on your code, you should checkout our Debug tutorial, it's very useful for developers!
+
+
+There's no need to worry about those concepts yet if you don't want to though: demoContract@0.0.1 is perfect for carrying on with this tutorial series!
+
+
+
  <img src="img/alltuts.png">
  <p><p>Click on Tutorial 1 above
 <p>
