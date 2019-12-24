@@ -17,7 +17,7 @@
 
 # Blockchain Platform Demo
 
-<img src="ibpd.png">
+<img src="/img/ibpd.png">
 
 
 # Sources
