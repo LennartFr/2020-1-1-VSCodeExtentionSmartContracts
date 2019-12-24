@@ -158,8 +158,21 @@ Now, take a look at the next transaction:
 This one starts with @Transaction(false) - the "false" means that this function is not typically intended to change the contents of the ledger. Transactions like this are typically evaluated. You'll often hear such transactions referred to as "queries". As you can see, this function only takes myAssetId, and will return the value of the whatever state that key points to.
 
 Take a look at the other transactions in the contract at your leisure, then when you're happy, let's move on to packaging and deploying that contract so that we can start using it...
-    
-    
+   
+```   
+
+1. In the Fabric Environments panel, look for + Install (it's under Smart Contracts > Installed) and click it.
+
+2, You'll be asked to choose a package to install. Pick demoContract@0.0.1.
+
+You should see demoContract@0.0.1 appear under the Smart Contracts > Installed list.
+
+Command Palette alternative: Install Smart Contract
+
+That's it - job done! Next up, we'll instantiate the smart contract...
+
+
+``` 
 
  ## 3 Package the Smart Contract    
     
@@ -167,6 +180,12 @@ Take a look at the other transactions in the contract at your leisure, then when
 ## 4 Fabric Environments 
 
 ## 5 Install the smart contract
+
+In a real network, each of the organizations that will be endorsing transactions will install the smart contract on their peers, then the contract will be instantiated on the channel. Our basic local Fabric runtime only has a single organization (Org1) with a single peer (peer0.org1.example.com) and a single channel (mychannel).
+
+So, we only have to install the contract on that single peer, then we will be able to instantiate it in mychannel. To do this...
+
+
 
 ## 6 Instantiate the smart contract
 
