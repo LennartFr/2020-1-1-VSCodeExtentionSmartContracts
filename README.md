@@ -14,6 +14,12 @@
 
 [Whitelisting](https://cloud.ibm.com/registration/whitelist)
 
+
+# Blockchain Platform Demo
+
+<img src="ibpd.png">
+
+
 # Sources
 
 <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/">Hyperledger Fabric Read the Docs</a>
@@ -114,7 +120,7 @@ The empty brackets in @Transaction() tells us that this function is intended to 
 
 Now, take a look at the next transaction:
 
-### Typescript 2
+### Typescript 
 
 
  ```
@@ -135,7 +141,7 @@ Now, take a look at the next transaction:
  ```
  
  
-### Java 2
+### Java 
 
 
  ```
