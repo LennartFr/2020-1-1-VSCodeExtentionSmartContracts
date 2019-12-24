@@ -185,6 +185,20 @@ In a real network, each of the organizations that will be endorsing transactions
 
 So, we only have to install the contract on that single peer, then we will be able to instantiate it in mychannel. To do this...
 
+```
+
+1. In the Fabric Environments panel, look for + Install (it's under Smart Contracts > Installed) and click it.
+
+2. You'll be asked to choose a package to install. Pick demoContract@0.0.1.
+
+```
+
+You should see demoContract@0.0.1 appear under the Smart Contracts > Installed list.
+
+Command Palette alternative: Install Smart Contract
+
+That's it - job done! Next up, we'll instantiate the smart contract...
+
 
 
 ## 6 Instantiate the smart contract
