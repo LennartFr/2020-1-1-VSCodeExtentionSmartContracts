@@ -16,7 +16,7 @@
 
 <img src="/img/ibpd.png">
 
-# [Blockchain Platform Demo](/ibpd)
+# [Blockchain Platform Demo](/ibpd.md)
 
 # Sources
 
