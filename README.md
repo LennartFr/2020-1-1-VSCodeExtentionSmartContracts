@@ -175,9 +175,40 @@ That's it - job done! Next up, we'll instantiate the smart contract...
 ``` 
 
  ## 3 Package the Smart Contract    
-    
+   
+```   
+Now that you have created your smart contract and understand the transactions therein, it’s time to package it. Smart contract projects are packaged into .CDS files - a special type of file that can be installed on Hyperledger Fabric peers.
+
+In the left sidebar, click on the IBM Blockchain Platform icon.
+
+Mouse-over the SMART CONTRACTS panel, click the ... menu, and select Package Open Project from the dropdown.
+
+Command Palette alternative: Package Open Project
+
+If you're using Java, please enter a name and a version for this project. demoContract and 0.0.1 would be perfect.
+
+You should see a new package on the list, demoContract@0.0.1 (or the name you gave to the packaged contract), if everything went well.
+
+The package you just created can be installed onto any Hyperledger Fabric peer (running at the correct version). For example, you could right-click and choose "Export Package", then deploy it into a cloud environment using the IBM Blockchain Platform operational tooling console. We'll learn how to do this later: for now, we'll deploy the package locally on the runtime that comes pre-configured with the VS Code extension, so there's no need to export your package just yet    
+
+```       
     
 ## 4 Fabric Environments 
+
+The panel titled Fabric Environments (in the IBM Blockchain Platform view) allows you to operate a simple Hyperledger Fabric runtime using Docker on your local machine. Initially, it will be stopped, and you should see:
+
+
+Local Fabric  ○ (click to start).
+Click that message and the extension will start spinning up Docker containers for you. The message "Local Fabric runtime is  starting..." will appear, with a loading spinner, and when the task is complete you will see a set of expandable/collapsible sections labelled Smart Contracts, Channels, Nodes and Organizations.
+
+
+Command Palette alternative: Connect to a Fabric Environment
+
+
+That's all you need to do in this step, so if you're in a rush, but whilst you're waiting for Local Fabric to start up, let's learn a little more about what it comprises.
+
+
+We won't go into too much detail in this tutorial, but here are a few handy facts to know:
 
 ## 5 Install the smart contract
 
