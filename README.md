@@ -15,7 +15,7 @@
 [Whitelisting](https://cloud.ibm.com/registration/whitelist)
 
 
-# Blockchain Platform Demo
+# [Blockchain Platform Demo](ibpd)
 
 <img src="/img/ibpd.png">
 
