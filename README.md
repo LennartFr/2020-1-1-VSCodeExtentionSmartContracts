@@ -67,7 +67,7 @@ Why will we install Visual Studio Code?
 
  
  
- <img src="https://developer.ibm.com/series/ibm-blockchain-platform-console-video-series/">IBM Blockchain Platform Console Video Series</a>
+<a href="https://developer.ibm.com/series/ibm-blockchain-platform-console-video-series/">IBM Blockchain Platform Console Video Series</a>
  
  
  
