@@ -282,36 +282,43 @@ If you wish to spend some more time locally developing your own smart contracts,
 There's no need to worry about those concepts yet if you don't want to though: demoContract@0.0.1 is perfect for carrying on with this tutorial series!
 
 
-
- <img src="img/alltuts.png">
- <p><p>Click on Tutorial 1 above
-<p>
- <img src="img/tutlocal.png">
- <p>
-  Follow the content in the tutorial
-  
-  
-# III) Smart Contract overview 
- 
-<img src="img/scontr1.png">
- 
- ---------------------------
- 
-<img src="img/scontr2.png">
-
-----------------------------
-
-<img src="img/scontr3.png">
-
-----------------------------
-
- <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/smartcontract/smartcontract.html ">Smart Contracts, see charts above</a>  
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
+# Tutorial 1 Local Smart Contract Development
+
+Create a new smart contract project
+
+Package a smart contract
+
+Start and use the local, pre-configured Hyperledger Fabric environment
+
+Deploy the smart contract on Local Fabric
+
+Edit and upgrade the contract
+
+Transact on your locally-deployed smart contract
 
 
+1. Create a new smart contract project
 
+2. Understand the smart contract (optional)
+
+3. Start the Local Fabric environment
+
+4. Package, install and instantiate the smart contract
+
+5. Upgrade an instantiated smart contract
+
+6. Submit and evaluate transactions
+
+Completed all the steps? Congratulations, you now know the core workflow of local smart contract development. You've generated a skeleton contract, deployed it locally, and submitted/evaluated transactions using it.
+
+If you wish to spend some more time locally developing your own smart contracts, Fabric Samples (accessed from the extension's homepage) can help you explore development concepts. If you're iterating a lot on your code, you should checkout our Debug tutorial, it's very useful for developers!
+
+There's no need to worry about those concepts yet if you don't want to though: demoContract is perfect for carrying on with this tutorial series!
+
+
+Next: Create a cloud blockchain deployment ➔
 
 
 
