@@ -24,7 +24,7 @@
 
 <a href="https://github.com/hyperledger/fabric">Hyperledger Fabric source code on GitHub</a>
  
- Bliockchain 2.2 released! https://youtu.be/JgENuJcdyE8
+# Blockchain 2.0 released! https://youtu.be/JgENuJcdyE8
  
 
 # I) Learning Objectives:
