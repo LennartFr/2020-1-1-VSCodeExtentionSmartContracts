@@ -66,10 +66,14 @@ Why will we install Visual Studio Code?
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
  
+ 
+ <img src="https://developer.ibm.com/series/ibm-blockchain-platform-console-video-series/">IBM Blockchain Platform Console Video Series</a>
+ 
+ 
+ 
  # II) Developing Smart Contracts in VSCode
  
  <img src="img/tutstart.png">
- 
  
  ## 2 Understading the Smart Contract
  
