@@ -71,8 +71,6 @@ Why will we install Visual Studio Code?
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
- 
- 
 <a href="https://developer.ibm.com/series/ibm-blockchain-platform-console-video-series/">IBM Blockchain Platform Console Video Series</a>
  
  
@@ -286,20 +284,12 @@ There's no need to worry about those concepts yet if you don't want to though: d
  
 # Tutorial 1 Local Smart Contract Development
 
-Create a new smart contract project
+## 1. Create a new smart contract project
 
-Package a smart contract
+The extension can generate a smart contract skeleton in your chosen Hyperledger Fabric supported programming language. This means you start with a basic but useful smart contract rather than a blank-sheet.
 
-Start and use the local, pre-configured Hyperledger Fabric environment
+For the purposes of this tutorial, we'll use TypeScript as the main example language. Java examples are also shown.
 
-Deploy the smart contract on Local Fabric
-
-Edit and upgrade the contract
-
-Transact on your locally-deployed smart contract
-
-
-1. Create a new smart contract project
 
 2. Understand the smart contract (optional)
 
@@ -308,6 +298,12 @@ Transact on your locally-deployed smart contract
 4. Package, install and instantiate the smart contract
 
 5. Upgrade an instantiated smart contract
+
+In a typical workflow you will only instantiate a given smart contract once. As you then make changes to the contract code, you'll want to update the version that's running on your network, replacing the old version. This is achieved by upgrading a smart contract.
+
+First, lets make a small change to the smart contract, so that we've got a new version to upgrade to...
+
+
 
 6. Submit and evaluate transactions
 
