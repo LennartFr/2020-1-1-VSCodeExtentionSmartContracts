@@ -11,6 +11,8 @@ Hyperledger Fabric 2.2: https://www.youtube.com/watch?v=JgENuJcdyE8&feature=yout
 # Contacts:
 
 ## Linkedin.com/in/lennartfrantzell/
+
+https://www.ibm.com/blogs/blockchain/category/podcast/
  
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
