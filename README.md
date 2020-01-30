@@ -309,8 +309,10 @@ There's no need to worry about those concepts yet if you don't want to though: d
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
  
-<table>
 
-<tr>Test of copying text rad 1</tr>
-</table>
+
+
+
+
+
 
