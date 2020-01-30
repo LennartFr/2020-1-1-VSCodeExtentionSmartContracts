@@ -6,6 +6,8 @@
 
 # An introduction to the IBM Blockchain Platform 2.0!
 
+Hyperledger Fabric 2.2: https://www.youtube.com/watch?v=JgENuJcdyE8&feature=youtu.be
+
 # Contacts:
 
 ## Linkedin.com/in/lennartfrantzell/
